@@ -1,0 +1,16 @@
+set number
+set background=dark
+colorscheme pablo
+set history=100
+syntax enable
+
+" no arrow keys (vi muscle memory)
+
+noremap <up> :echoerr "Umm, use k instead"<CR>
+noremap <down> :echoerr "Umm, use j instead"<CR>
+noremap <left> :echoerr "Umm, use h instead"<CR>
+noremap <right> :echoerr "Umm, use l instead"<CR>
+inoremap <up> <NOP>
+inoremap <down> <NOP>
+inoremap <left> <NOP>
+inoremap <right> <NOP>
